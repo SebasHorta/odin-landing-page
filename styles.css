@@ -1,4 +1,79 @@
+/* SHARED PROPERTIES */
 * {
     box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
+.header, .hero, .footer {
+    background-color: #1F2937;
+}
+
+.hero, .content, .quote, .sign-up, .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 64px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* HEADER SECTION */
+.header {
+    padding: 8px 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 14px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-size: 8px;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: #E5E7EB;
+    transition: transform 0.2s ease-in-out;
+}
+
+a:hover {
+    transform: scale(1.025);
+}
+
+/* HERO SECTION */
+.hero {
+    /* font-size: 48px; */
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+/* CONTENT SECTION */
+
+/* QUOTE SECTION */
+.quote {
+    background-color: #E5E7EB;
+}
+
+/* SIGN-UP SECTION */
+
+/* FOOTER SECTION */
+.footer {
+    color: #E5E7EB;
+    font-size: 8px;
+}
